@@ -1,0 +1,5 @@
+<h1><%= if @user_birthday.days_until_birthday.zero?
+            "It's today! Many happy returns!"
+        else
+            "Only #{@user_birthday.days_until_birthday} days to go!"
+        end%>!</h1>
