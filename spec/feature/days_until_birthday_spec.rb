@@ -9,7 +9,7 @@ feature "show basic web app" do
     visit("/")
     expect(find_field('day'))
     expect(find_field('month'))
-    expect(page).to have_content('Welcome to the Birthday Countdown!')
+    expect(page).to have_content('Birthday Countdown')
     expect(page).to have_button('Submit')
   end
 end

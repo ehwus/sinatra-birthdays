@@ -1,9 +1,27 @@
-<h1>Welcome to the Birthday Countdown!</h1>
-<h2>Enter your Month and Day of birth to continue</h2>
-<form action="/show-days" method="post">
-  <label for="day">Day</label>
-  <input type="text" name="day">
-  <label for="month">Month</label>
-  <input type="text" name="month">
-  <input type='submit' value='Submit'>
-</form>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Birthday Countdown</h1>
+  <h2>Enter your Month and Day of birth to continue</h2>
+  <form action="/show-days" method="post">
+    <div class="text-inputs">
+      <div class="day">
+        <label for="day">Day</label>
+        <input type="text" name="day" class="dob-box" >
+      </div>
+      <div class="month">
+        <label for="month">Month</label>
+        <input type="text" name="month" class="dob-box">
+      </div>
+    </div>
+    <input type='submit' value='Submit' class="submit">
+  </form>
+</div>
+</body>
+</html>

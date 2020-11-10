@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&family=Bungee+Shade&display=swap');
+
+body {
+    background-color: #FE53BB;
+}
+
+.container {
+    background-color: #F5D300;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    color: black;
+    text-align: center;
+    margin: 50px;
+}
+
+h2 {
+    font-family: 'BioRhyme', serif;
+    text-align: center;
+    color: black;
+}
+
+form {
+    text-align: center;
+}
+
+form label {
+    font-family: 'BioRhyme', serif;
+}
+
+.dob-box {
+    width: 10%;
+    background-color: #09FBD3;
+    border: 0;
+    border-radius: 15px;
+}
+
+.submit {
+    background-color: #08F7FE;
+    font-family: 'BioRhyme', serif;
+    border: 0;
+}
+
+.month, .day, .submit {
+    margin: 5px;   
+}
