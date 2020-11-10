@@ -22,4 +22,12 @@ feature "tell user happy birthday if it's their birthday" do
     click_button "Submit"
     expect(page).to have_content(/It's today! Many happy returns!/)
   end
+
+  scenario "tell user how many days they have to wait for their birthday" do
+    visit("/")
+    fill_in('day', with: Date.next_day(30).day)
+    fill_in('month', with: Date.next_day(30).month)
+    click_button "Submit"
+    expect(page).to have_content(/Only 30 days to go!/)
+  end
 end
