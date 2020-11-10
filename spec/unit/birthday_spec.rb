@@ -18,7 +18,7 @@ describe Birthday do
       test = Birthday.new(thirty_days_from_now)
       expect(test.days_until_birthday).to eq(30)
     end
-    
+
     it "returns 335 if birthday was 30 days ago" do
       thirty_days_ago = Date.today.prev_day(30)
       test = Birthday.new(thirty_days_ago)
