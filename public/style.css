@@ -52,3 +52,8 @@ form label {
 .month, .day, .submit {
     margin: 5px;   
 }
+
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}

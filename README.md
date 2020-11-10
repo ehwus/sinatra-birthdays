@@ -4,8 +4,6 @@ This is a basic web app using Ruby and Sinatra that tells the user how many days
 
 This was the first web app I built from scratch as part of the Makers Academy course, and I followed the principles I've learned around TDD to ensure that all aspects of the simple app are covered by Rspec and Capybara for the interactive elements.
 
-TODO: Make it look in any way reasonable.
-
 ## Usage
 
  - [ ] Clone the Github repository
